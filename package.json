@@ -8,9 +8,12 @@
     "start": "parcel index.html"
   },
   "dependencies": {
+    "axios": "^0.21.0",
     "bulma": "^0.7.2",
     "parcel": "^1.11.0",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "react": ">=15",
+    "react-dom": "^16.7.0",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0"
   }
 }
