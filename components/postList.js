@@ -12,7 +12,7 @@ class PostList extends Component {
   }
 
   componentDidMount() {
-    axios.get("https://kamilanitschka.pl/wp-json/wp/v2/posts").then(posts => {
+    axios.get("https://hydrosolar.pl/wp-json/wp/v2/posts").then(posts => {
       this.setState({
         posts: posts.data
       });

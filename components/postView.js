@@ -12,7 +12,7 @@ class PostView extends Component {
 
   componentDidMount() {
     const slug = this.props.match.params.slug;
-    axios.get(`https://kamilanitschka.pl/wp-json/wp/v2/posts?slug=${slug}`)
+    axios.get(`https://hydrosolar.pl/wp-json/wp/v2/posts?slug=${slug}`)
     .then(post => {
       this.setState({
         post: post.data[0]
